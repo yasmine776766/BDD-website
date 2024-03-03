@@ -4,6 +4,9 @@
 .row{
     flex-direction: row;
 }
+.padding{
+    padding:30px;
+}
 .column{
     flex-direction: column;
 }
@@ -21,4 +24,9 @@
 .space-evenly{
     align-items: center;
     justify-content: space-evenly;
+}
+.space-around{
+
+    align-items: center;
+    justify-content: space-around;
 }

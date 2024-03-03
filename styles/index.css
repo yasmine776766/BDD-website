@@ -197,3 +197,48 @@ li h5:hover{
     top:100px;
     left:850px;
 }
+
+.section2-title{
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+   
+    text-align: center;
+    padding-top: 20px;
+}
+.section2-bg{
+    background-color: #F5F5F5;
+}
+
+.foundation{
+    background-color: white;
+    padding: 25px;
+    width: 25%;
+    height:40vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    gap:5px;
+    
+}
+
+.foundation-img{
+    width: 100px;
+    height: 100px;
+
+}
+.foundation-desc{
+    font-family: "TheMixSemiBold-Plain";
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    width: 100%
+}
+.background-img{
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    opacity: 0.6;
+}
