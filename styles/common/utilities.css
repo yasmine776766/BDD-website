@@ -30,3 +30,43 @@
     align-items: center;
     justify-content: space-around;
 }
+.space-between{
+
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.paragraph{
+    font-family: "TheMixSemiBold-Plain";
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: initial; 
+    white-space: normal;
+
+}
+
+.flex-grow {
+    display: flex;
+    flex-direction: row;}
+
+
+.know-more{
+    position: absolute;
+    width:130px;
+    height:50px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-top: 3px;
+    bottom: 30px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+}

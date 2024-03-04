@@ -154,17 +154,7 @@ li h5:hover{
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 450px) {
-    .hero {
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .hero > img {
-      width: 100%;
-    }
-  }
- 
+
 
 .dropdown-content {
     border-radius: 10px; 
@@ -199,10 +189,7 @@ li h5:hover{
 }
 
 .section2-title{
-    font-family: "TheMixBlack-Caps", Sans-serif;
-    font-size: 30px;
-    font-weight: 900;
-   
+
     text-align: center;
     padding-top: 20px;
 }
@@ -211,29 +198,29 @@ li h5:hover{
 .foundation{
     background-color: white;
     padding: 25px;
-    width: 25%;
-    height:40vh;
+    width: 20%;
+    height:45vh;
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
     text-align: center;
     gap:5px;
-    
+   
+    max-width: 300px;
+    min-width: 200px;
+    box-shadow: 0 0 10px 0 #00000020;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+
 }
+
 
 .foundation-img{
     width: 100px;
     height: 100px;
 
 }
-.foundation-desc{
-    font-family: "TheMixSemiBold-Plain";
-    color: lightslategray;
-    font-size: 20px;
-    font-weight: 200;
-    margin-top: 20px;
-    width: 100%
-}
+
 .section2-bg{
     background-color: #F5F5F5;
 }
@@ -270,10 +257,7 @@ li h5:hover{
     height: 100%;
 }
 .section3-title{
-    font-family: "TheMixBlack-Caps", Sans-serif;
-    font-size: 30px;
-    font-weight: 900;
-    
+
     position: absolute;
     z-index: 3;
     top: 20%;
@@ -281,6 +265,7 @@ li h5:hover{
     transform: translate(-50%, -20%);
     
 }
+
 
 .play-button{
     display: flex;
@@ -290,10 +275,90 @@ li h5:hover{
     position: absolute;
     width: 50px;
     height: 50px;
-    color: white;
     cursor: pointer;
     z-index: 5;
     background-color:transparent;
     border-radius: 50px;
     border: 5px solid grey;
+}
+
+.section4-title{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.founds{
+    width: 100%;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden; 
+
+    text-overflow: ellipsis;
+}
+@media (max-height: 768px) {
+    .founds {
+        flex-wrap: wrap; 
+    }
+
+    .foundation {
+        width: calc(50% - 20px); 
+        height: auto; 
+        max-width: none; 
+        min-width: auto; 
+    }
+
+    .paragraph {
+        white-space: normal; 
+}}
+
+.communities{
+    position: relative;
+    background-color: white;
+    padding: 25px;
+    width: 25%;
+    height:60vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    gap:5px;
+    max-width: 300px;
+    min-width: 200px;
+    box-shadow: 0 0 10px 0 #00000020;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    max-width: 300px;
+    min-width: 200px;
+    box-shadow: 0 0 10px 0 #00000020;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.list-style{
+    position: absolute;
+    top: 100px;
+}
+
+.list-style >li{
+    text-align: start;
+    list-style-type: circle; 
+}
+
+
+
+.tri-img{
+    
+    width: 600px;
+    height:60vh;
+
+}
+.tri-img >img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
 }
