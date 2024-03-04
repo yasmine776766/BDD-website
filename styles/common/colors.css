@@ -1,3 +1,9 @@
 .transparent{
     background-color: transparent;
 }
+
+.color{
+
+    background-color: red;
+    height: 400px;
+}
